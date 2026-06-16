@@ -21,7 +21,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 md:py-32 relative z-10 bg-background overflow-hidden">
+    <section id="services" className="py-20 md:py-32 relative z-10 bg-transparent overflow-hidden">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="text-center mb-16 md:mb-20">
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4 md:mb-6 tracking-tight">Our <span className="text-primary">Services</span></h2>
@@ -38,7 +38,7 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group flex flex-col gap-4 md:gap-6 p-6 md:p-8 rounded-3xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-500"
+              className="group flex flex-col gap-4 md:gap-6 p-6 md:p-8 rounded-3xl bg-black/40 backdrop-blur-md border border-white/10 hover:border-primary/30 hover:bg-black/60 hover:shadow-lg transition-all duration-500"
             >
               <div className="flex-shrink-0 w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-primary/10 group-hover:bg-primary/20 group-hover:scale-110 transition-all duration-500 flex items-center justify-center">
                 {service.icon}

@@ -51,7 +51,7 @@ const usps = [
   {
     icon: <Rocket className="h-6 w-6 md:h-8 md:w-8 text-primary" />,
     title: "Flawless & Efficient",
-    description: "Optimized for speed, SEO, and high conversion rates."
+    description: "Optimized for speed, performance, and high conversion rates."
   }
 ];
 

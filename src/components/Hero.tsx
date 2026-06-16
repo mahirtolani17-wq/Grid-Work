@@ -36,7 +36,7 @@ export default function Hero() {
                 <Button 
                   size="lg" 
                   className="h-12 sm:h-14 px-4 sm:px-6 text-sm sm:text-base w-full sm:w-auto bg-[#f8f7f2] text-[#000000] hover:bg-[#f8f7f2]/90 hover:scale-105 transition-all duration-300 shadow-[0_0_30px_rgba(248,247,242,0.15)]"
-                  onClick={() => window.location.href = 'tel:+919327088850'}
+                  onClick={() => window.location.href = 'tel:+919773499223'}
                 >
                   <Phone className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                   Call to Enquire
@@ -45,7 +45,7 @@ export default function Hero() {
                   size="lg" 
                   variant="outline"
                   className="h-12 sm:h-14 px-4 sm:px-6 text-sm sm:text-base w-full sm:w-auto border-[#f8f7f2]/20 hover:bg-[#f8f7f2]/10 text-[#f8f7f2] hover:scale-105 transition-all duration-300 bg-black/20 backdrop-blur-md"
-                  onClick={() => window.open('https://wa.me/919327088850', '_blank')}
+                  onClick={() => window.open('https://wa.me/919773499223', '_blank')}
                 >
                   <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                   Chat for quotation
