@@ -5,7 +5,7 @@ const features = [
   {
     icon: <Layout className="w-6 h-6 text-primary" />,
     title: "Custom Design",
-    description: "I craft unique, conversion-focused designs tailored specifically to your brand identity and target audience."
+    description: "We craft unique, conversion-focused designs tailored specifically to your brand identity and target audience."
   },
   {
     icon: <Code2 className="w-6 h-6 text-primary" />,
@@ -19,7 +19,7 @@ const features = [
   }
 ];
 
-export default function WhatIDo() {
+export default function WhatWeDo() {
   return (
     <section className="py-20 md:py-32 relative z-10 bg-black overflow-hidden border-t border-white/5">
       <div className="container px-4 md:px-6 mx-auto">
@@ -32,14 +32,14 @@ export default function WhatIDo() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#f8f7f2] mb-6 tracking-tight">
-                What I <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Do</span>
+                What We <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Do</span>
               </h2>
               <p className="text-[#f8f7f2]/70 text-lg md:text-xl font-light leading-relaxed mb-8">
-                I specialize in helping businesses establish a powerful online presence without the massive agency price tag. 
-                From the initial design concept to the final line of code, I handle the entire process to deliver a flawless digital experience.
+                We specialize in helping businesses establish a powerful online presence without the massive agency price tag. 
+                From the initial design concept to the final line of code, we handle the entire process to deliver a flawless digital experience.
               </p>
               <p className="text-[#f8f7f2]/70 text-lg md:text-xl font-light leading-relaxed">
-                My goal is simple: to build websites that not only look stunning but actually work to convert your visitors into paying customers.
+                Our goal is simple: to build websites that not only look stunning but actually work to convert your visitors into paying customers.
               </p>
             </motion.div>
           </div>
